@@ -1,2 +1,0 @@
-# ember
-Ember boarding website
