@@ -7,22 +7,46 @@ body {
 }
 
 header {
-    background: #000;
+    background: #800000;
     color: white;
-    text-align: center;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 3rem;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.logo {
+    font-size: 2rem;
     font-family: 'Verdana', sans-serif;
 }
 
-header p {
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li {
     margin: 0;
-    font-size: 1.5rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
     font-family: 'Courier New', Courier, monospace;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff4500;
 }
 
 main {
@@ -69,6 +93,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
     font-family: 'Lucida Console', Monaco, monospace;
+    transition: background 0.3s;
 }
 
 button:hover {
@@ -90,4 +115,14 @@ button:hover {
 
 .story:last-child {
     border-bottom: none;
+}
+
+footer {
+    background: #800000;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
 }
