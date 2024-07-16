@@ -4,12 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ember - Rediscover Your Fire</title>
-    <link rel="stylesheet" href="ember.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Ember</h1>
-        <p>Rediscover Your Fire</p>
+        <div class="navbar">
+            <h1 class="logo">Ember</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#submit-story">Submit Your Story</a></li>
+                    <li><a href="#stories">Embers</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     
     <main>
@@ -35,10 +45,21 @@
         </section>
         
         <section id="stories">
-            <h2>Stories from the Community</h2>
+            <h2>Embers from the Community</h2>
             <div id="stories-container">
                 <!-- Submitted stories will appear here -->
             </div>
+        </section>
+        
+        <section id="shop">
+            <h2>Shop</h2>
+            <p>Coming soon...</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: support@ember.com</p>
+            <p>Phone: +123 456 7890</p>
         </section>
     </main>
     
@@ -46,6 +67,6 @@
         <p>&copy; 2024 Ember. All rights reserved.</p>
     </footer>
     
-    <script src="ember.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
