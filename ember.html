@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ember - Rediscover Your Fire</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ember</h1>
+        <p>Rediscover Your Fire</p>
+    </header>
+    
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Ember is dedicated to helping boarders rediscover their ember and inner fire. Whether you ride skateboards, surfboards, or snowboards, we're here to inspire you to get back on the board after setbacks and to keep your passion burning brightly.</p>
+        </section>
+        
+        <section id="submit-story">
+            <h2>Submit Your Story</h2>
+            <form id="story-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="story">Your Story:</label>
+                <textarea id="story" name="story" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        
+        <section id="stories">
+            <h2>Stories from the Community</h2>
+            <div id="stories-container">
+                <!-- Submitted stories will appear here -->
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Ember. All rights reserved.</p>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
